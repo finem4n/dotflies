@@ -22,9 +22,9 @@ vim.filetype.add({
 })
 
 require("todotxt").setup({
-  todotxt = vim.env.HOME .. "/notes/todo.txt",
+  todotxt = vim.env.HOME .. "/notes/todo/todo.txt",
   -- donetxt = vim.env.HOME .. "/Documents/notes/done.txt",
-  max_priority = "C",
+  max_priority = "Z",
   metadata = {
     -- asc/desc strings
     tag = { sort = "asc" },
